@@ -10,9 +10,9 @@ public class Controller {
     public TextArea textIn;
     @FXML
     private TextField textOut;
-    
+
     public void btnSendClick(ActionEvent actionEvent) {
-        String text = textIn.getText() + textOut.getText() + "\n";
+        String text = textIn.getText() + textOut.getText() + "\n";//
         textIn.setText(text);
 
     }
