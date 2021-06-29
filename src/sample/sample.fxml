@@ -14,7 +14,6 @@
     <TextArea fx:id="textIn" VBox.vgrow="ALWAYS"/>
 
     <spacing> 5 </spacing>
-
     <HBox spacing="3">
         <TextField fx:id="textOut"  HBox.hgrow="ALWAYS" onAction="#btnSendClick" />
         <Button text="Отправить" onAction="#btnSendClick"/>
